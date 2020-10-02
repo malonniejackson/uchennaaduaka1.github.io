@@ -49,12 +49,15 @@ p, li {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-between;
+    } else {justify-content: center;
+    }       
+
+.wrapper.container{
+    margin-right: 15px;
+    flex: 1 0 auto;
 }
 
-.one {
-    flex: 0 1 auto;
-}
 h1.heading {
     text-align: center;
     font-size: 4rem;
