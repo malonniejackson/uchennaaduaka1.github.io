@@ -35,6 +35,8 @@ p, li {
 }
 
 .header {
+    width: 100%;
+    background-color: #0032A8;
     margin-bottom: 10px;
     display: flex;
     flex-flow: row wrap;
