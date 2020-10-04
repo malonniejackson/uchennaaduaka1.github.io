@@ -50,11 +50,11 @@ p, li {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
-    } else {justify-content: center;
+    } else .container {justify-content: center;
     }       
 
-.wrapper.container{
-    margin-right: 15px;
+.container {
+    margin-right:15px ;
     flex: 1 0 auto;
 }
 
